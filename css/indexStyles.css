@@ -1,0 +1,198 @@
+body{
+	height:100%;
+	width:100%;
+	font-size: 62.5%;
+	background:black;
+	/*background-color:#9A1A00;*/
+	background-image: url("../images/st_josephs_pipe_organ.jpg");
+	background-size: cover;
+}
+
+
+/* images start */
+#organ{
+	width:100%;
+}
+#ago{
+
+	height:3.75em;
+	width:3.1253em;
+
+}
+#hire{
+	height:170px;
+	display: block;
+    margin: 0 auto;
+
+}
+.rose{
+	height:20px;
+	width:20px;
+}
+/* images end */
+
+.jumbotron{
+	border-radius:15px;
+	background-color:#FFC66B;
+	margin:0 auto;
+	width:80%;
+	text-align:center;
+	margin-bottom: 10px;
+	padding:30px 15px;
+}
+
+.navbar{
+	text-align:center;
+	border-radius: 0 !important;
+	font-size:16px;
+}
+
+#payPalDiv,#hireDiv{
+	background:#23455A;
+	height:180px;
+	color:#DCD6C9;
+  	font-size: 18px;
+  	border-radius: 6px;
+  	border: 1px solid transparent;
+  	max-width:280px;
+  	min-width:170px;
+  	margin-bottom:2%;
+}
+#payPalDiv{
+	padding-top:20px;
+}
+
+#contact{
+	min-width:500px;
+}
+
+table{
+	font-size:16px;
+	min-width:478px;
+}
+table th{
+	text-align:center;
+}
+
+#localOrgans,#links,#lendingLibrary{
+	display:none;
+}
+
+#webmistress p{
+	font-size: 20px;
+}
+
+#payImg{
+	width:187px;
+	height:87px;
+}
+
+
+#pedalingTabsContainer{
+  	width: 80%;
+	font-size:16px;
+
+}
+
+
+#tab1 a,#tab2 a,#tab3 a,#tab4 a{
+	background-image: linear-gradient(to
+	bottom,#3c3c3c 0,#222 100%);
+	color:white;
+	text-align: center;
+	width:100%;
+}
+
+
+/* to render backgroundimage 
+properly START */
+#indexDiv{
+	width:100%;
+	height:780px;
+	}
+#joinDiv{
+	width:100%;
+	height:812px;
+	}
+#newsDiv{
+	width:100%;
+	height:812px;
+	}
+#eventsDiv{
+	width:100%;
+	height:812px;
+}
+#scholarshipsDiv{
+	width:100%;
+	height:812px;
+	}
+#jobsDiv{
+	width:100%;
+	height:812px;
+	}
+#contactDiv{
+	width:100%;
+	height:812px;
+}
+#pedalingAroundDiv{
+	width:100%;
+	height:770px;
+}
+
+#index,#join,#news,#events,
+#scholarships,#jobs,#contact,
+#pedalingAround{
+	display:none;
+}
+/* to render backgroundimage properly END */
+
+
+
+/* deals with page breaks in mutiple devices START */
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+/* deals with page breaks END */
+
+
+
+
+
+
+
