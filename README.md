@@ -1,3 +1,1 @@
-Html/CSS/Boostrap/Javascript/Jquery.
-This was a personal project built on the existing website of the American Guild of Organist Portland Oregon chapter.  
-My version of the site completely overhauls the orginal in terms of design and function.
+This was a personal project built on the existing website of the American Guild of Organist Portland Oregon chapter. My version of the site completely overhauls the orginal in terms of design and function.  Html/CSS/Boostrap/Javascript/Jquery are used, * Note this version is not the AGO portland live site * their website can be found at http://www.portlandago.org/index.html
